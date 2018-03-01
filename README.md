@@ -1,8 +1,6 @@
-# Angular Pact example
+# Swagger-Mock-Validator example Project
 
-This example project shows how to setup an Angular application to use [Pact](http://pact.io)
-in order to create Pact files from a consumer test and validate the
-a consumer against the Pact.
+This test project uses the Atlassian swagger-mock-validator via the "test" script in package.json to verify a swagger spec file against a pact mock file.
 
 ## Key Files
 
