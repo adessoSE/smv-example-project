@@ -7,7 +7,7 @@
     "start": "ng serve",
     "validate": "swagger-mock-validator C:/Users/d.braun/Desktop/Projekte/swagger-mock-projekt/adesso_USER_API2_1.0.0_swagger.json pacts/ui-userservice.json",
     "build": "npm run test && ng build",
-    "test": "cross-env LOGLEVEL=DEBUG && npm run validate",
+    "test": "cross-env LOGLEVEL=DEBUG && ng test && npm run validate",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "publish-pacts": "node publish-pacts.js"
