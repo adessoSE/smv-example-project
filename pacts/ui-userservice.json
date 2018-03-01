@@ -10,8 +10,8 @@
       "description": "a request to POST a person",
       "providerState": "provider accepts a new person",
       "request": {
-        "method": "post",
-        "path": "/user-service/users/",
+        "method": "POST",
+        "path": "/user-service/users",
         "headers": {
           "Content-Type": "application/json"
         },
