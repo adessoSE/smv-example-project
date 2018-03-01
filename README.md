@@ -2,15 +2,6 @@
 
 This test project uses the Atlassian swagger-mock-validator via the "test" script in package.json to verify a swagger spec file against a pact mock file.
 
-## Key Files
-
-* [`user.service.ts`](src/app/user.service.ts): Angular service that calls a REST
-  backend to manage users
-* [`user.service.pact.spec.ts`](src/app/user.service.pact.spec.ts): Jasmine-based
-  consumer test of `user.service.ts`
-* [`karma.conf.js`](karma.conf.js): configuration of the Karma test runner including
-  configuration to setup Pact
-
 ## How to Run
 
 Run `npm install` to load the needed javascript libraries and then `npm run test` to
